@@ -3,135 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/module2.css">
 <title>Responsive Layout</title>
-<style>
-
-/********** Base styles **********/
-* {
-  box-sizing: border-box;
-}
-h1 {
-  margin-bottom: 15px;
-}
-
-p {
-  border: 1px solid black;
-  background-color: #A52A2A;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  color: white;
-}
-
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-}
-
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-    border: 1px solid green;
-  }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
-}
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    border: 1px solid green;
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
-}
-
-</style>
 </head>
 <body>
-<h1>Responsive Layout</h1>
+<h1>Our Menu</h1>
 
 <div class="row">
-  <div class="col-lg-3 col-md-6"><p>Item 1</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 2</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 3</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 4</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 5</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 6</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 7</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 8</p></div>
+  <div id="menuDiv" class="col-lg-4 col-md-6 col-sd-12"> 
+    <h3 id="titleChicken">Chicken</h3>
+	<p class="textBoxes">Lorem ipsm dolor sit amet, consectetur adipscng elit. Nullam augue quam, tempor vitae sodales non, bibendum vel sem. Aenean ac egestas nunc. Donec ac nisi ut turpis scelerisque commodo non vitae odio. In lacus tortor, placerat in commodo id, posuere at neque. Maecenas dictum nisl euismod, ullamcorper neque ac, tempor leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis congue tristique cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis luctus quam, vel condimentum eros.
+	</p>
+  </div>
+  <div id="menuDiv" class="col-lg-4 col-md-6 col-sd-12">
+     <h3 id="titleBeef">Beef</h3>
+	<p class="textBoxes">Maeenas dapius tristiqe fermenum. Vestibulum eros auue, egstas eget quam nec, aliquet porta tellus. Cras dapibus justo sem, eu lobortis lectus laoreet ac. Suspendisse non luctus diam. In id felis facilisis, condimentum metus et, accumsan tellus. Pellentesque eu bibendum nibh. Aenean non cursus mi.
+	</p>
+  </div>
+  <div id="menuDiv" class="col-lg-4 col-md-12 col-sd-12"> 
+    <h3  id="titleSushi">Sushi</h3>
+	<p class="textBoxes">Pii bdm msa. Mrida n u ia ndt. Ala rava muis ec enm consctetur condimentum. Phasellus suscipit augue elit, a tempus ligula dictum non. Sed et massa finibus, finibus ligula at, feugiat tellus. Proin sed leo a diam malesuada tempus. Ut faucibus nibh convallis lorem efficitur, at interdum risus porttitor. Maecenas enim ipsum, ultrices sit amet accumsan in, elementum et lectus. In dapibus ex id nibh volutpat, a molestie mauris tincidunt. Mauris aliquam, enim sed mollis posuere, nibh orci tincidunt felis, a rutrum eros enim eu ipsum. Nullam in mauris tortor. Nulla sit amet augue sit amet mauris eleifend tincidunt nec in tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed at tincidunt leo.
+	</p>
+  </div>
 </div>
 
 </body>
